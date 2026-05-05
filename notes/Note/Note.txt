@@ -1,0 +1,24 @@
+Title's Screen
+
+
+
+Game Screen 
+Backgrounds 
+	1. Import background's and set them in diferent layers
+	2. Set Diferent X Speed's to each one background(test values!)
+	3.Optional, but i applied a effect of underwater in the water and their shadows
+
+PLAYER
+	1. Import sprite's of player
+	2. split them
+	3. Create a object and apply their sprite
+	
+	In Object
+		Make The Player Fall(Starts)
+		Make The Player Climb with space
+		
+
+Shop Screen
+
+
+
