@@ -1,4 +1,4 @@
-global.speed_obs = 3
+global.speed_obs = 2
 
 global.pontos = 0;
 
@@ -6,5 +6,7 @@ global.estado_player = true;
 
 global.level = 1;
 
-global.lista_pontos = [100,250,400,600,1000,1500,2000,2500,3000]
+global.lista_pontos = [100,450,650,1000,1500,1800,2300,2800,3500]
+
+global.fish_colectables = 0;
 
