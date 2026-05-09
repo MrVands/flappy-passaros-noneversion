@@ -1,9 +1,11 @@
 function perdeu_jogo() {
 	if(	global.estado_player = true) {
 	global.estado_player = false
+	global.destino = rm_menu
 	alarm[0] = game_get_speed(gamespeed_fps) * 2
-
+	
 	vspeed = -6
+	layer_sequence_create("Transicao",0,0,sq_transicao1)
 	}
 	
 }
@@ -25,7 +27,7 @@ randomise()
 alarm[alarme] = _timer	
 randomise()
 
-	
+
 }
 	
 function deletar(){
@@ -34,4 +36,10 @@ function deletar(){
 		instance_destroy()
 		
 	}
+}
+
+function muda_room() {
+
+	room_goto(global.destino)
+	
 }
