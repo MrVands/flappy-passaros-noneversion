@@ -1,9 +1,10 @@
 var speed_bkg = global.level
 
-
+//enquanto eu tiver vivo to ganhando ponto
 if(global.estado_player = true) {
 global.pontos += 0.2
 }
+
 
 if(global.pontos >= global.lista_pontos[global.level-1]) {
 	

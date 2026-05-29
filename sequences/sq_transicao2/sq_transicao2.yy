@@ -20,7 +20,13 @@
   "lockOrigin":false,
   "moments":{
     "$KeyframeStore<MomentsEventKeyframe>":"",
-    "Keyframes":[],
+    "Keyframes":[
+      {"$Keyframe<MomentsEventKeyframe>":"","Channels":{
+          "0":{"$MomentsEventKeyframe":"","Events":[
+              "transicao_fim",
+            ],"resourceType":"MomentsEventKeyframe","resourceVersion":"2.0",},
+        },"Disabled":false,"id":"1bc335e5-8118-49e2-9063-aa3c481a934b","IsCreationKey":false,"Key":23.0,"Length":1.0,"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
+    ],
     "resourceType":"KeyframeStore<MomentsEventKeyframe>",
     "resourceVersion":"2.0",
   },

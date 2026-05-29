@@ -7,4 +7,8 @@ escala_txt_x = 0.7
 escala_txt_y = 1.3
 
 global.destino = destino;
-layer_sequence_create("Transicao",0,0,sq_transicao1)
+
+if(global.transicao = false) {
+	layer_sequence_create("Transicao",0,0,sq_transicao1)
+	global.transicao = true;
+}

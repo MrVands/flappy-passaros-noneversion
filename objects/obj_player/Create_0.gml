@@ -7,3 +7,6 @@ image_speed = 0
 
 escala_x = image_xscale
 escala_y = image_yscale
+
+
+sprite_index = global.sprite_player

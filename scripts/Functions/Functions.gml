@@ -2,10 +2,16 @@ function perdeu_jogo() {
 	if(	global.estado_player = true) {
 	global.estado_player = false
 	global.destino = rm_menu
+	global.speed_obs = 3;
+	
+	
 	alarm[0] = game_get_speed(gamespeed_fps) * 2
 	
 	vspeed = -6
-	layer_sequence_create("Transicao",0,0,sq_transicao1)
+		if(global.transicao == false) {
+		layer_sequence_create("Transicao",0,0,sq_transicao1)
+		global.transicao = true;
+		}
 	}
 	
 }
@@ -40,6 +46,12 @@ function deletar(){
 
 function muda_room() {
 
+	global.transicao = true;
 	room_goto(global.destino)
 	
+}
+
+function transicao_fim()
+{
+	global.transicao = false;
 }
