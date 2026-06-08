@@ -1,9 +1,13 @@
 function perdeu_jogo() {
+	
 	if(	global.estado_player = true) {
 	global.estado_player = false
 	global.destino = rm_menu
 	global.speed_obs = 3;
 	
+	var _pitu = random_range(0.7,1.3)
+
+	audio_play_sound(snd_hit,1,0, , , _pitu)
 	
 	alarm[0] = game_get_speed(gamespeed_fps) * 2
 	
@@ -54,4 +58,16 @@ function muda_room() {
 function transicao_fim()
 {
 	global.transicao = false;
+}
+
+
+function change_effect() {
+	
+
+layer_enable_fx("Background_Mirror_Trees",global.effects);
+layer_enable_fx("Background_Mirror_Moon",global.effects);
+layer_enable_fx("Background_Water",global.effects);
+layer_enable_fx("Background_Mirror",global.effects);
+layer_enable_fx("Fishes", global.effects)
+	
 }

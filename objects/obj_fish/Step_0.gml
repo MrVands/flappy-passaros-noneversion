@@ -3,4 +3,8 @@ if(global.estado_player = true) {
 }
 	
 
-
+if(x < -64) 
+{ 
+	instance_destroy()	
+	
+}

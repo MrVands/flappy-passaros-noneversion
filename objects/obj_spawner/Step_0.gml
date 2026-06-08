@@ -9,6 +9,7 @@ global.pontos += 0.2
 if(global.pontos >= global.lista_pontos[global.level-1]) {
 	
 	global.level++
+	audio_play_sound(snd_level_up,1,0)
 	global.speed_obs += global.level
 	layer_hspeed("Background_Mirror", -global.level * 0.25)
 	layer_hspeed("Background_Mirror_Trees",-global.level * 0.25)
